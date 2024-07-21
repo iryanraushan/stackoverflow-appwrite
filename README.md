@@ -33,8 +33,7 @@ This project is a clone of the popular Q&A platform, Stack Overflow. The goal is
 ```
 // Start nextjs project
 
-npx create-next-app stackoverflow-appwrite
-cd stackoverflow-appwrite
+npx create-next-app@latest
 ```
 
 ### Appwrite
