@@ -44,8 +44,10 @@ export default async function createQuestionCollection() {
       false
     ),
   ]);
-  console.log(`Created ${questionCollection} collection in ${db} database`);
 
+  console.log(`question attribute created`);
+
+  /*
   await Promise.all([
     databases.createIndex(
       db,
@@ -63,5 +65,7 @@ export default async function createQuestionCollection() {
       ["content"],
       ["asc"]
     ),
+    console.log(`question index created`),
   ]);
+  */
 }
